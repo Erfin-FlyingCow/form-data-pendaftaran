@@ -1,0 +1,31 @@
+ .box {
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     width: 60%;
+     border: none;
+     padding: 10px;
+     background-color: #add674;
+     border-radius: 5px;
+ }
+
+ .form {
+     width: 99%;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .text {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: rgb(79, 142, 97)
+ }
+
+ @media (max-width: 375px) and (max-height: 675px) {
+     .box {
+         min-width: 375px;
+         min-height: 675px;
+     }
+ }
