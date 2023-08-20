@@ -68,11 +68,11 @@ body {
      }
 
      .form {
+         items-size;
          min-width: 100%;
          max-width: 100%;
          min-height: 50%;
          max-height: 100%;
-         width: 80%;
          height: auto;
      }
  }
