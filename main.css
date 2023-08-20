@@ -51,13 +51,12 @@ body {
  @media (max-width: 1080px) and (max-height: 2262px) {
 
 
-    body {
-            font-size: 16px;
-            
-        }
+    .text {
+        font-size: 150%;
+    }
 
 
-    max-zoom: 30%;
+    
      .box {
          min-width: 50%;
          max-width: 100%;
