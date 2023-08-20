@@ -50,7 +50,11 @@ body {
      border: none;
      border-radius: 5px;
  }
-
+ 
+ .tombol:hover {
+    background-color:rgb(22, 105, 22);
+    color: whitesmoke;
+ }
 
 
  @media (max-width: 1080px) and (max-height: 2262px) {
