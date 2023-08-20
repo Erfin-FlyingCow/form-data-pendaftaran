@@ -38,9 +38,9 @@ body {
  }
 
  .bg {
-    position: relative;
+    position: static;
      background-image: url("pngwing.com.png");
-     background-size: 700px;
+     background-size: 1000px;
      background-repeat: no-repeat;
      background-position: center;
  }
