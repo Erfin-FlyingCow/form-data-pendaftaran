@@ -49,11 +49,13 @@ body {
      width: 100%;
      border: none;
      border-radius: 5px;
+     width: 98.5%;   
  }
  
  .tombol:hover {
     background-color:rgb(22, 105, 22);
     color: whitesmoke;
+    width: 98.5%;
  }
 
 
