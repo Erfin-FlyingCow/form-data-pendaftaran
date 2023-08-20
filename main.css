@@ -52,7 +52,7 @@ body {
 
 
     .text {
-        font-size: 200%;
+        font-size: 300%;
     }
 
 
@@ -73,7 +73,7 @@ body {
          min-height: 50%;
          max-height: 100%;
          padding: 2%;
-         font-size: 130%;
+         font-size: 260%;
          height: auto;
      }
 
