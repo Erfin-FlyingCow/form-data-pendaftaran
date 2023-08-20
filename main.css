@@ -12,8 +12,8 @@ body {
      -webkit-box-shadow: 10px 10px 5px 0px  rgba(93, 193, 135, 0.2);
      -moz-box-shadow: 10px 10px 5px 0px rgba(55, 159, 34, 0.75);
      box-shadow: 10px 10px 5px 0px rgba(37, 175, 109, 0.75);
-     width: 340px;
-     height: 300px;
+     width: 540px;
+     height: auto;
      justify-content: center;
      align-items: center;
      margin: auto;
@@ -29,27 +29,56 @@ body {
      border-radius: 5px;
      -ms-flex-align: center;
      position: relative;
-     width: 330px;
+     width: 530px;
+     padding: 5px;
  }
 
  .text {
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 28px;
      color: rgb(34, 84, 48)
+
  }
 
  .bg {
-    position: static;
+     display: flex;
+     align-items: center;
      background-image: url("images/pngwing.com.png");
-     background-size: 1000px;
+     background-size: 560px;
      background-repeat: no-repeat;
      background-position: center;
  }
+
+ .bg::before,
+ .bg::after {
+     content: "";
+     width: 200px;
+     height: 100%;
+     background-color: green;
+     position: absolute;
+     top: 0;
+ }
+
+ .bg::before {
+     left: -10px;
+     /* Jarak dari sisi kiri gambar */
+     margin-right: px;
+     /* Jarak antara gambar dan garis vertikal */
+ }
+
+ .bg::after {
+     right: -10px;
+     /* Jarak dari sisi kanan gambar */
+     margin-left: 10px;
+     /* Jarak antara gambar dan garis vertikal */
+ }
+
 
  .tombol {
      width: 100%;
      border: none;
      border-radius: 5px;
-     width: 98.5%;   
+     width: 100%;   
  }
  
  .tombol:hover {
@@ -83,6 +112,14 @@ body {
          font-size: 260%;
          height: auto;
      }
+
+     .bg {
+     position: static;
+     background-image: url("images/pngwing.com.png");
+     background-size: 1000px;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
 
 
  }  
