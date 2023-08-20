@@ -45,6 +45,12 @@ body {
      background-position: center;
  }
 
+ .tombol {
+     width: 100%;
+     border: none;
+     border-radius: 5px;
+ }
+
 
 
  @media (max-width: 1080px) and (max-height: 2262px) {
@@ -72,9 +78,5 @@ body {
          height: auto;
      }
 
-     .tombol{
-        width: 100%;
-        border: none;
-        border-radius: 5px;
-     }
+
  }  
