@@ -7,7 +7,7 @@ function buildWhatsAppLink(formData) {
   let message = `Nama        : ${nama}\n`;
   message += `Nomor HP : ${noHp}\n`;
   message += `NIK            : ${NIK}\n`;
-  message += `Alamat       : ${fullAddress}`;
+  message += `Alamat       : \n${fullAddress}`;
 
   let link = `https://wa.me/${encodeURIComponent(
     noTo
@@ -27,8 +27,15 @@ function validateForm() {
     kota: document.getElementById("kota").value,
   };
 
-  if (Object.values(formData).some((value) => value === "")) {
-    alert("Harap isi semua kolom yang diperlukan.");
+  if (
+    formData.nama === "" ||
+    formData.noHp === "" ||
+    formData.NIK === "" ||
+    formData.kota === ""
+  ) {
+    alert(
+      "Harap isi semua kolom yang diperlukan (Nama, No HP, NIK, dan Kota atau Kabupaten)."
+    );
     return false;
   }
 
