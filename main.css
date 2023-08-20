@@ -39,7 +39,7 @@ body {
  }
 
  .bg {
-    position: relativ;
+    position: relative;
      background-image: url("images/pngwing.com.png");
      background-size: 700px;
      background-repeat: no-repeat;
