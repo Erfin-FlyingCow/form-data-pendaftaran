@@ -76,4 +76,10 @@ body {
          font-size: 130%;
          height: auto;
      }
+
+     .tombol{
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+     }
  }
