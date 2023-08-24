@@ -1,13 +1,10 @@
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 .box {
-     flex-direction: column;
-     -ms-flex-align: center;
      position: absolute;;
      min-width: 40%;
      height: auto;
@@ -106,7 +103,7 @@ body {
     
         
     .text {
-        font-size: 100%;
+        font-size: 150%;
     }
 
 
@@ -114,6 +111,10 @@ body {
      .box {
          width: 70%;
          height: auto;
+     }
+
+     .form {
+        font-size: 150%;
      }
 
 
