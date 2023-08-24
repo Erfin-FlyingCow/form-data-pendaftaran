@@ -83,6 +83,10 @@ body {
 
  @media(max-height:2048px) and (max-width:1080px)  {
 
+
+    body {
+        height: 70vh;
+    }
     .bg {
             display: flex;
 
@@ -109,7 +113,7 @@ body {
 
     
      .box {
-         width: 80%;
+         width: 90%;
          height: auto;
      }
 
