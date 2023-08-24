@@ -7,62 +7,67 @@
 </head>
 
 <body class="bg">
-    <form name="inputData" class="box" onsubmit="return validateForm()" style="align-items: center;" >
+    <form name="inputData" class="box" onsubmit="return validateForm()">
+        <div>
             <label for="noHp" class="text">
                 Nomor Handphone (harus diisi)
             </label>
             <br />
             <input id="noHp" type="number" placeholder="contoh : 6282173921093" class="form">
+        </div>
+        <div>
             <label for="nama" class="text">
                 Nama Lengkap (harus diisi)
             </label>
             <br />
             <input id="nama" type="text" oninput="this.value = this.value.toUpperCase();"
                 placeholder="contoh : BUDI SETIAWAN" class="form">
+        </div>
 
-
-        
+        <div>
             <label for="NIK" class="text">
                 NIK (harus diisi)
-
+            </label>
             <br />
             <input id="NIK" type="number" placeholder="contoh : 32xxxxxxxxxxxxxx" class="form">
+        </div>
 
+        <div>
             <label for="alamat" class="text">
                 Alamat
             </label>
             <br />
             <input id="alamat" type="text" oninput="this.value = this.value.toUpperCase();"
                 placeholder="contoh : JL. CIREMAI RAYA 40" class="form">
+        </div>
 
-        
+        <div>
             <label for="kelurahan" class="text">
                 Kelurahan
             </label>
             <br />
             <input id="kelurahan" type="text" oninput="this.value = this.value.toUpperCase();"
                 placeholder="contoh : KECAPI" class="form">
-        
+        </div>
 
-        
+        <div>
             <label for="kecamatan" class="text">
                 Kecamatan
             </label>
             <br />
             <input id="kecamatan" type="text" oninput="this.value = this.value.toUpperCase();"
                 placeholder="contoh : HARJAMUKTI" class="form">
-        
+        </div>
 
-        
+        <div>
             <label for="kota" class="text">
                 Kota atau Kabupaten (harus diisi)
             </label>
             <br />
             <input id="kota" type="text" oninput="this.value = this.value.toUpperCase();"
                 placeholder="contoh : KOTA CIREBON" class="form">
-        
+        </div>
 
-        <br />
         <br />
         
             <button type="submit" class="tombol text">KIRIM</button>
