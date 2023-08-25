@@ -1,19 +1,31 @@
-body {
-    justify-content: center;
+.container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+}
+
+.judul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(123, 231, 123);
+    font-size: 400%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -2px 2px 0px rgba(46, 252, 56, 0.9),
+                 2px -2px 0px rgba(46, 252, 56, 0.9),
+                 -2px -2px 0px rgba(46, 252, 56, 0.9),
+                 2px 2px 0px rgba(46, 252, 56, 0.9);
+    z-index: 2;
 }
 .box {
-     position: absolute;;
-     min-width: 40%;
+     width: 40%;
      height: auto;
+     position: center;
      justify-content: center;
      align-items: center;
      border: none;
      padding: 10px;
      background-color:rgba(47, 194, 105, 0.90);
-     border-radius: 5px;
+     border-radius: 3px;
  }
 
  .form {
@@ -21,7 +33,6 @@ body {
      border: none;
      border-width: 2%;
      border-radius: 5px;
-     -ms-flex-align: center;
      position: relative;
      padding: 5px;
      justify-content: center;
@@ -31,40 +42,20 @@ body {
      text-align: left;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 100%;
-     color: rgb(34, 84, 48)
+     color: rgb(34, 84, 48);
+     
 
  }
 
  .bg {
-     display: flex;
      align-items: center;
      background-image: url("images/pngwing.com.png");
-     background-size: 60%;
-     background-repeat: no-repeat;
-     background-position: center;
+     background-size: 50%;
+     background-repeat:no-repeat;
+     background-position-y: 4%;
+     background-position-x: center;
  }
 
- .bg::before,
- .bg::after {
-     content: "";
-     width: 20%;
-     height: 110%;
-     background-color: rgba(42, 135, 14, 0.9);
-     position: absolute;
-     top: -5;
-     z-index:-1 ;
- }
-
- .bg::before {
-     left: -10px;
-     margin-right: px;
- }
- 
-
- .bg::after {
-     right: -10px;
-     margin-left: 10px;
- }
 
 
  .tombol {
@@ -76,7 +67,7 @@ body {
  }
  
  .tombol:hover {
-    background-color:rgb(22, 105, 22);
+    background-color:rgb(74, 168, 105);
     color: whitesmoke;
  }
 
@@ -84,9 +75,6 @@ body {
  @media(max-height:2048px) and (max-width:1080px)  {
 
 
-    body {
-        height: 70vh;
-    }
     .bg {
             display: flex;
 
